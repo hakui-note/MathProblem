@@ -15,5 +15,4 @@ def pi_approximation(num_trials):
     # 円周率（π）を近似する値を計算する
     return 4 * count / num_trials
 
-# 近似解を100000回の試行で求める
-print(pi_approximation(100000))
+print(pi_approximation(1000000))
